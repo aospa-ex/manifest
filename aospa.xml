@@ -68,6 +68,9 @@
   <remove-project name="platform/external/zlib" />
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
+  <!-- External AdBlock Hosts file -->
+  <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
+
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
@@ -117,6 +120,8 @@
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="aospa-ex" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="aospa-ex" />
+  <remove-project name="platform/packages/modules/DnsResolver" />
+  <project path="packages/modules/DnsResolver" name="android_packages_modules_DnsResolver" remote="aospa-ex" />
   <remove-project name="platform/packages/modules/Permission" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="aospa-ex" />
   <remove-project name="platform/packages/modules/Wifi" />
