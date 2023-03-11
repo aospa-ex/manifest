@@ -21,6 +21,15 @@
   <include name="system.xml"/>
   <include name="vendor.xml"/>
 
+  <!-- AOSPA Ex -->
+  <remote  name="aospa-ex"
+           fetch="https://github.com/aospa-ex"
+           revision="topaz" />
+
+  <remote  name="grapheneos"
+           fetch="https://github.com/GrapheneOS"
+           revision="13" />
+
   <!-- AOSPA -->
   <remote  name="aospa"
            fetch=".."
